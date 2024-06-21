@@ -45,6 +45,15 @@ main {
     margin: 0.5em 0;
 }
 
+/* Estilo adicional para los iconos de los miembros del equipo */
+.team-member i {
+    font-size: 2em; /* Aumenta el tamaño del icono */
+    margin-bottom: 10px; /* Espacio entre el icono y el nombre */
+    color: #4682B4; /* Color dorado para la estrella */
+}
+
+
+
 @media (max-width: 768px) {
     .team-member {
         width: calc(100% / 2 - 2em);
